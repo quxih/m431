@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leichtathletik Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="nav-wrapper">
+    <button class="nav-toggle">Leichtathletik Quiz</button>
+    <div class="nav">   
+        <div><a href="index.html">Home</a></div>
+        <div><a href="quiz.html">Fussball Quiz</a></div>
+        <div><a href="quiz2.html">Leichtathletik Quiz</a></div>
+        <div><a href="quiz3.html">Katze Quiz</a></div>
+        <div><a href="kontakt.html">Kontakt und Credits</a></div>
+    </div>
+</div>
+
+<div class="quiz-container">
+  <div id="questionNumber"></div>
+
+  <div class="quiz-question" id="question"></div>
+
+  <div id="answers"></div> 
+
+  <div id="quiz-result" style="display:none;">
+    <p id="result-title">Fertig. Hier sind eure Resultate:</p>
+    <p>
+      <span class="correct-count">Richtig: 0</span>, 
+      <span class="wrong-count">Falsch: 0</span>
+      <div id="wrong-answers-list"></div>
+      <br>
+      <br>
+      <a class="restart" href="quiz2.html">Quiz neu starten</a>
+    </p>
+  </div>
+</div>
+
+  <script src="script2.js"></script>
+</body>
+</html>
